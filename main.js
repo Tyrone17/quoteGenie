@@ -13,5 +13,5 @@ return;
 
 function onload () {
   //fs.readLine(getQuote());
-  document.getElementById("")
+  document.getElementById("text").innerHTML = fs.readLine('/quote.text')
 } 
