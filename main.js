@@ -12,5 +12,6 @@ return;
 }
 
 function onload () {
-  fs.readLine(getQuote());
+  //fs.readLine(getQuote());
+  document.getElementById("")
 } 
