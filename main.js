@@ -4,11 +4,13 @@ var url = "https://docs.google.com/document/d/1ZYkbINPutWRcq-SwHVAXCJDklcpsPEnDi
 function getQuote () {
  $.getJSON(url, function (resp {
    $.each(resp, function (key, value) {
-      print(key + value);
+      key + value;
+
 } )
 }) 
+return;
 }
 
 function onload () {
-  getQuote().fs.readLine();
+  fs.readLine(getQuote());
 } 
